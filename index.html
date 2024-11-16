@@ -1,0 +1,94 @@
+<!-- //#002 Prompt: Credit Card Checkout
+//Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="upper">
+        <nav class="leftnav">
+          <nav class="back">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h5>BACK</h5>
+          </nav>
+
+          <ul>
+            <li><a href="">Select seats</a></li>
+            <i class="fa-solid fa-chevron-right"></i>
+            <li><a href="">Choose Cinema</a></li>
+            <i class="fa-solid fa-chevron-right"></i>
+            <li><a href="">Grab Food</a></li>
+            <i class="fa-solid fa-chevron-right"></i>
+            <li class="Payment"><a href="">Payment</a></li>
+          </ul>
+        </nav>
+        <nav class="rightnav">
+          <i class="fa-solid fa-house"></i>
+          <a href="">Home</a>
+        </nav>
+      </nav>
+
+      <div class="bottom">
+        <div class="left">
+          <h1>PAYMENT METHODS</h1>
+          <div class="card">
+            <div class="cc">
+              <i class="fa-solid fa-credit-card"></i>
+              <h6>Credit Card</h6>
+            </div>
+            <div class="dc">
+              <i class="fa-regular fa-credit-card"></i>
+              <h6>Debit Card</h6>
+            </div>
+            <div class="nb">
+              <i class="fa-solid fa-building-columns"></i>
+              <h6>Netbanking</h6>
+            </div>
+            <div class="w">
+              <i class="fa-solid fa-wallet"></i>
+              <h6>Wallet</h6>
+            </div>
+          </div>
+        </div>
+        <div class="center">
+          <div class="top">
+            <div class="cardno">
+              <nav>
+                <h3>Pay via Credit Card</h3>
+              </nav>
+              <hr />
+              <form action="">
+                <input type="number" placeholder="Enter Your Card Number" />
+                <div class="myc">
+                  <form action="">
+                    <input type="num" placeholder="MM" />
+                    <input type="num" placeholder="YY" />
+                    <input type="num" placeholder="CVV" />
+                  </form>
+                </div>
+                <input type="text" placeholder="Name on  the card" />
+                <div class="check">
+                  <input type="checkbox" /><h4>Securely save this card for future use</h4>
+                </div>
+              </form>
+              <button>Verify & Pay</button>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+            <img src="Screenshot 2024-09-15 213347.png" alt="">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
